@@ -1,9 +1,10 @@
-export const firstIntern = {
-  firstName: "Ante",
-  lastName: "Antić",
-};
-
-export const secondIntern = {
-  firstName: "Ana",
-  lastName: "Anić",
-};
+export const interns = [
+  {
+    firstName: "Ante",
+    lastName: "Antić",
+  },
+  {
+    firstName: "Ana",
+    lastName: "Anić",
+  },
+];

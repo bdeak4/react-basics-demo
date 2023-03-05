@@ -1,4 +1,6 @@
-const Intern = ({ firstName, lastName }) => {
+const Intern = ({ intern }) => {
+  const { firstName, lastName } = intern;
+
   return (
     <div>
       <h2 className="heading">

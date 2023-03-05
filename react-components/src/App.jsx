@@ -1,14 +1,12 @@
 import Intern from "./components/Intern";
-import { firstIntern, secondIntern } from "./data";
+import { interns } from "./data";
 
 const App = () => {
   return (
     <div>
-      <Intern
-        firstName={firstIntern.firstName}
-        lastName={firstIntern.lastName}
-      />
-      <Intern {...secondIntern} />
+      {interns.map((intern) => (
+        <Intern intern={intern} key={intern.firstName} />
+      ))}
     </div>
   );
 };
