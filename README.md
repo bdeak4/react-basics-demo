@@ -5,6 +5,7 @@
 1. [react components](./react-components/)
 1. [react state](./react-state/)
 1. [react form](./react-form/)
+1. [npm](./npm/)
 
 ## More learning material
 
